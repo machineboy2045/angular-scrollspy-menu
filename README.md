@@ -13,7 +13,7 @@ Minimalistic AngularJS scrollspy directive.
 
 ## Usage
 
-We use [bower](https://github.com/bower/bower) for dependency management. Install Angular-selectize into your project by running the command
+We use [bower](https://github.com/bower/bower) for dependency management. Install scrollspy-menu into your project by running the command
 
 `$ bower install angular-scrollspy-menu`
 
@@ -29,7 +29,7 @@ This will copy the angular-scrollspy-menu files into your `bower_components` fol
 (Note that `jquery` must be loaded before `angular` so that it doesn't use `jqLite` internally)
 
 
-Add the selectize module as a dependency to your application module:
+Add the scrollspy-menu module as a dependency to your application module:
 
 ```javascript
 var myAppModule = angular.module('MyApp', ['scrollspy-menu']);
