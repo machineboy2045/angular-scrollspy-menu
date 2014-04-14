@@ -3,7 +3,7 @@
  * https://github.com/machineboy2045/angular-scrollspy-menu
  **/
 
-angular.module('scrollspy-menu', []).directive("scrollspy-menu", ['$timeout', function($timeout) {
+angular.module('scrollspy-menu', []).directive("scrollspyMenu", ['$timeout', function($timeout) {
 
   return {
     restrict : "AC",
